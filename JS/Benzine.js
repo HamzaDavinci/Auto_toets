@@ -1,8 +1,8 @@
 function kanBereikenTankstation(kilometersNaarTankstation, kilometersPerLiter, resterendeLiters) {
     bereik = false
 
-    aantal_lieters_nodig = resterendeLiters * kilometersPerLiter
-    afstand_rijden = aantal_lieters_nodig - kilometersNaarTankstation
+    aantal_km = resterendeLiters * kilometersPerLiter
+    afstand_rijden = aantal_km - kilometersNaarTankstation
 
     if (afstand_rijden < 0){
         bereik = false
